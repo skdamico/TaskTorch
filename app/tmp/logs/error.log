@@ -102,3 +102,81 @@
 2011-12-07 22:47:36 Error: [MissingControllerException] Controller class JsController could not be found.
 #0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2011-12-07 23:49:11 Error: [MissingControllerException] Controller class Index.phpController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/stickyspaces/index.php(40): require('/var/www/sticky...')
+#2 {main}
+2011-12-07 23:52:59 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-07 23:53:01 Error: [MissingControllerException] Controller class AboutController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-07 23:53:03 Error: [MissingControllerException] Controller class HelpController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-07 23:53:04 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-08 03:28:40 Error: [MissingPluginException] Plugin DebugKit could not be found.
+#0 /var/www/stickyspaces/lib/Cake/Core/App.php(332): CakePlugin::path('DebugKit')
+#1 /var/www/stickyspaces/lib/Cake/Core/App.php(217): App::pluginPath('DebugKit')
+#2 /var/www/stickyspaces/lib/Cake/Core/App.php(510): App::path('Controller/Comp...', 'DebugKit')
+#3 [internal function]: App::load('ToolbarComponen...')
+#4 [internal function]: spl_autoload_call('ToolbarComponen...')
+#5 /var/www/stickyspaces/lib/Cake/Controller/ComponentCollection.php(92): class_exists('ToolbarComponen...')
+#6 /var/www/stickyspaces/lib/Cake/Controller/ComponentCollection.php(45): ComponentCollection->load('DebugKit.Toolba...', Array)
+#7 /var/www/stickyspaces/lib/Cake/Controller/Controller.php(585): ComponentCollection->init(Object(WorkspacesController))
+#8 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(103): Controller->constructClasses()
+#9 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(WorkspacesController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2011-12-08 14:19:33 Error: [NotFoundException] Invalid post
+#0 [internal function]: PostsController->update('undefined')
+#1 /var/www/stickyspaces/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-08 15:04:36 Error: [NotFoundException] Invalid post
+#0 [internal function]: PostsController->update()
+#1 /var/www/stickyspaces/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-08 15:04:38 Error: [NotFoundException] Invalid post
+#0 [internal function]: PostsController->update()
+#1 /var/www/stickyspaces/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-08 15:04:39 Error: [NotFoundException] Invalid post
+#0 [internal function]: PostsController->update()
+#1 /var/www/stickyspaces/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-08 16:11:38 Error: [NotFoundException] Invalid post
+#0 [internal function]: PostsController->update('3')
+#1 /var/www/stickyspaces/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-08 16:11:39 Error: [NotFoundException] Invalid post
+#0 [internal function]: PostsController->update('3')
+#1 /var/www/stickyspaces/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-08 16:11:43 Error: [NotFoundException] Invalid post
+#0 [internal function]: PostsController->update('3')
+#1 /var/www/stickyspaces/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

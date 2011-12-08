@@ -10,17 +10,53 @@
     float: left;
     width: 200px;
     height: 100%;
-    background-color: #ddd;
+    background-color: #f0f0f0;
     margin: 0;
     padding: 0;
+    padding-top: 20px;
+    position:relative;
 }
 
 .workspace-tools .tool {
     margin: 0 auto;
 }
 
-.workspace-tools .tool.post {
-    margin-top: 10%;
+.workspace-tools .tool.trash {
+    bottom: 0;
+    margin-top: 290px;
+    width: 80px;
+    height: 120px;
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    position: relative;
+}
+.workspace-tools .tool.trash.dropping .body {
+    background-color: #999;
+}
+.workspace-tools .tool.trash.dropping .lid {
+    background-color: #aaa;
+}
+
+.workspace-tools .tool.trash .body {
+    width: 72px;
+    margin: 0 auto;
+    height: 100px;
+    background-color: #bbb;
+    -moz-box-shadow: 2px 5px 5px #888;
+    -webkit-box-shadow: 2px 5px 5px #888;
+    box-shadow: 2px 5px 5px #888;
+}
+.workspace-tools .tool.trash .lid {
+    top: 0;
+    margin: 0 auto;
+    width: 80px;
+    height: 20px;
+    background-color: #ccc;
+    z-index: 20;
+    -moz-box-shadow: 2px 5px 4px #888;
+    -webkit-box-shadow: 2px 5px 4px #888;
+    box-shadow: px 2px 5px #888;
 }
 
 .post {
@@ -46,16 +82,16 @@
     width: 700px;
     background-color: #E0CAA4;
     margin-left: 20px;
+    position: relative;
 }
 
 .workspace-content.dropping {
-    -moz-box-shadow: inset 2px 2px 2px 2px #FFC547;
-    -webkit-box-shadow: inset 2px 2px 2px 2px #FFC547;
-    box-shadow: inset 2px 2px 2px 2px #FFC547;
+    -moz-box-shadow: inset 0px 0px 0px 4px #FFC547;
+    -webkit-box-shadow: inset 0px 0px 0px 4px #FFC547;
+    box-shadow: inset 0px 0px 0px 4px #FFC547;
 }
 
-.workspace-content .item {
-    
+.workspace-content .item { 
 }
 
 .clear {
