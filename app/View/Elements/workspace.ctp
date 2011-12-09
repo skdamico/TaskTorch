@@ -6,7 +6,10 @@
 <div id='workspace-container'>
     <div class='workspace-tools'>
         <div class='post tool'>
-            <div class='content'></div>
+            <div class='content'>
+                <div class='display'></div>
+                <div class='char-count'></div>
+            </div>
             <ul class='options' style='display: none;'>
                 <li id='edit'>
                     <span class='option-icon ui-icon ui-icon-pencil'></span>

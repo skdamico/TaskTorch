@@ -1,5 +1,6 @@
 $(document).ready(function() {
     var workspaceId = $("#workspace-id").val();
+    var userId = $("#user-id").val();
     var timeout = 0;
     var optionsVisible = true;
 
@@ -150,7 +151,7 @@ $(document).ready(function() {
                 $.post("/stickyspaces/posts/add", 
                         { "data[Post][position_x]": posLeft, 
                           "data[Post][position_y]": posTop, 
-                          "data[Post][user_id]": 1,
+                          "data[Post][user_id]": userId,
                           "data[Post][workspace_id]": workspaceId },
                         function(data) {
                             if(data == null || data == '') {

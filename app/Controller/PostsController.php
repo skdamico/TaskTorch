@@ -12,7 +12,9 @@ class PostsController extends AppController {
         }
         if(!empty($this->data)) {
             $this->Post->create();
+            $this->data['Post']['user_id'] = $this->Auth->user('id');
             $this->Post->save($this->data);
+
             echo $this->Post->getLastInsertId();
         }
     }

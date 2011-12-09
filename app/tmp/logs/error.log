@@ -216,3 +216,368 @@
 2011-12-08 22:05:25 Error: [MissingControllerException] Controller class CssController could not be found.
 #0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2011-12-09 00:17:50 Error: [MissingViewException] View file "/var/www/stickyspaces/app/View/Users/index.ctp" is missing.
+#0 /var/www/stickyspaces/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /var/www/stickyspaces/app/Plugin/DebugKit/View/DebugView.php(82): View->render(NULL, NULL)
+#2 /var/www/stickyspaces/lib/Cake/Controller/Controller.php(900): DebugView->render(NULL, NULL)
+#3 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#4 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2011-12-09 00:18:17 Error: [MissingViewException] View file "/var/www/stickyspaces/app/View/Users/index.ctp" is missing.
+#0 /var/www/stickyspaces/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /var/www/stickyspaces/app/Plugin/DebugKit/View/DebugView.php(82): View->render(NULL, NULL)
+#2 /var/www/stickyspaces/lib/Cake/Controller/Controller.php(900): DebugView->render(NULL, NULL)
+#3 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#4 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2011-12-09 00:18:19 Error: [MissingViewException] View file "/var/www/stickyspaces/app/View/Users/index.ctp" is missing.
+#0 /var/www/stickyspaces/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /var/www/stickyspaces/app/Plugin/DebugKit/View/DebugView.php(82): View->render(NULL, NULL)
+#2 /var/www/stickyspaces/lib/Cake/Controller/Controller.php(900): DebugView->render(NULL, NULL)
+#3 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#4 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2011-12-09 00:19:19 Error: [MissingActionException] Action UsersController::view() could not be found.
+#0 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-09 00:46:02 Error: [MissingViewException] View file "/var/www/stickyspaces/app/View/Users/index.ctp" is missing.
+#0 /var/www/stickyspaces/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /var/www/stickyspaces/app/Plugin/DebugKit/View/DebugView.php(82): View->render(NULL, NULL)
+#2 /var/www/stickyspaces/lib/Cake/Controller/Controller.php(900): DebugView->render(NULL, NULL)
+#3 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#4 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2011-12-09 00:49:26 Error: [MissingControllerException] Controller class AboutController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 00:49:28 Error: [MissingControllerException] Controller class HelpController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 00:59:09 Error: [MissingControllerException] Controller class AboutController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 00:59:10 Error: [MissingControllerException] Controller class HelpController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 01:40:23 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null
+#0 /var/www/stickyspaces/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /var/www/stickyspaces/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `po...', Array)
+#2 /var/www/stickyspaces/lib/Cake/Model/Datasource/DboSource.php(967): DboSource->execute('INSERT INTO `po...')
+#3 /var/www/stickyspaces/lib/Cake/Model/Model.php(1629): DboSource->create(Object(Post), Array, Array)
+#4 /var/www/stickyspaces/app/Controller/PostsController.php(16): Model->save(Array)
+#5 [internal function]: PostsController->add()
+#6 /var/www/stickyspaces/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#7 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2011-12-09 01:49:53 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null
+#0 /var/www/stickyspaces/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /var/www/stickyspaces/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `po...', Array)
+#2 /var/www/stickyspaces/lib/Cake/Model/Datasource/DboSource.php(967): DboSource->execute('INSERT INTO `po...')
+#3 /var/www/stickyspaces/lib/Cake/Model/Model.php(1629): DboSource->create(Object(Post), Array, Array)
+#4 /var/www/stickyspaces/app/Controller/PostsController.php(16): Model->save(Array)
+#5 [internal function]: PostsController->add()
+#6 /var/www/stickyspaces/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#7 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2011-12-09 01:50:19 Error: [MissingControllerException] Controller class LogoutController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 01:50:47 Error: [MissingControllerException] Controller class LoginController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 02:16:45 Error: [MissingViewException] View file "/var/www/stickyspaces/app/View/Users/edit.ctp" is missing.
+#0 /var/www/stickyspaces/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /var/www/stickyspaces/app/Plugin/DebugKit/View/DebugView.php(82): View->render(NULL, NULL)
+#2 /var/www/stickyspaces/lib/Cake/Controller/Controller.php(900): DebugView->render(NULL, NULL)
+#3 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#4 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2011-12-09 02:24:41 Error: [MissingActionException] Action UsersController::index() could not be found.
+#0 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-09 02:26:38 Error: [MissingActionException] Action UsersController::index() could not be found.
+#0 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-09 02:26:51 Error: [MissingActionException] Action UsersController::index() could not be found.
+#0 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-09 02:27:29 Error: [MissingViewException] View file "/var/www/stickyspaces/app/View/Users/edit.ctp" is missing.
+#0 /var/www/stickyspaces/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /var/www/stickyspaces/app/Plugin/DebugKit/View/DebugView.php(82): View->render(NULL, NULL)
+#2 /var/www/stickyspaces/lib/Cake/Controller/Controller.php(900): DebugView->render(NULL, NULL)
+#3 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#4 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2011-12-09 02:29:10 Error: [MissingControllerException] Controller class AboutController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 02:43:17 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Workspace.id' in 'field list'
+#0 /var/www/stickyspaces/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /var/www/stickyspaces/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('SELECT `Workspa...', Array)
+#2 /var/www/stickyspaces/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('SELECT `Workspa...', Array, Array)
+#3 /var/www/stickyspaces/lib/Cake/Model/Datasource/DboSource.php(1040): DboSource->fetchAll('SELECT `Workspa...', false)
+#4 /var/www/stickyspaces/lib/Cake/Model/Model.php(2460): DboSource->read(Object(User), Array)
+#5 /var/www/stickyspaces/app/Controller/WorkspacesController.php(15): Model->find('all', Array)
+#6 [internal function]: WorkspacesController->index()
+#7 /var/www/stickyspaces/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(WorkspacesController), Array)
+#8 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(WorkspacesController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2011-12-09 02:43:19 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Workspace.id' in 'field list'
+#0 /var/www/stickyspaces/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /var/www/stickyspaces/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('SELECT `Workspa...', Array)
+#2 /var/www/stickyspaces/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('SELECT `Workspa...', Array, Array)
+#3 /var/www/stickyspaces/lib/Cake/Model/Datasource/DboSource.php(1040): DboSource->fetchAll('SELECT `Workspa...', false)
+#4 /var/www/stickyspaces/lib/Cake/Model/Model.php(2460): DboSource->read(Object(User), Array)
+#5 /var/www/stickyspaces/app/Controller/WorkspacesController.php(15): Model->find('all', Array)
+#6 [internal function]: WorkspacesController->index()
+#7 /var/www/stickyspaces/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(WorkspacesController), Array)
+#8 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(WorkspacesController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2011-12-09 02:46:28 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.id' in 'where clause'
+#0 /var/www/stickyspaces/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /var/www/stickyspaces/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('SELECT `Workspa...', Array)
+#2 /var/www/stickyspaces/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('SELECT `Workspa...', Array, Array)
+#3 /var/www/stickyspaces/lib/Cake/Model/Datasource/DboSource.php(1040): DboSource->fetchAll('SELECT `Workspa...', false)
+#4 /var/www/stickyspaces/lib/Cake/Model/Model.php(2460): DboSource->read(Object(Workspace), Array)
+#5 /var/www/stickyspaces/app/Controller/WorkspacesController.php(15): Model->find('all', Array)
+#6 [internal function]: WorkspacesController->index()
+#7 /var/www/stickyspaces/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(WorkspacesController), Array)
+#8 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(WorkspacesController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2011-12-09 02:55:27 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.id' in 'where clause'
+#0 /var/www/stickyspaces/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /var/www/stickyspaces/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('SELECT `Workspa...', Array)
+#2 /var/www/stickyspaces/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('SELECT `Workspa...', Array, Array)
+#3 /var/www/stickyspaces/lib/Cake/Model/Datasource/DboSource.php(1040): DboSource->fetchAll('SELECT `Workspa...', false)
+#4 /var/www/stickyspaces/lib/Cake/Model/Model.php(2460): DboSource->read(Object(Workspace), Array)
+#5 /var/www/stickyspaces/app/Controller/WorkspacesController.php(30): Model->find('all', Array)
+#6 [internal function]: WorkspacesController->index()
+#7 /var/www/stickyspaces/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(WorkspacesController), Array)
+#8 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(WorkspacesController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2011-12-09 03:57:22 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 03:57:22 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 03:58:33 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 03:58:33 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 04:01:31 Error: [MissingTableException] Database table user_workspaces for model UserWorkspace was not found.
+#0 /var/www/stickyspaces/lib/Cake/Model/Model.php(3238): Model->setSource('user_workspaces')
+#1 /var/www/stickyspaces/lib/Cake/Model/Model.php(2460): Model->getDataSource()
+#2 /var/www/stickyspaces/lib/Cake/Controller/Component/PaginatorComponent.php(172): Model->find('all', Array)
+#3 /var/www/stickyspaces/lib/Cake/Controller/Controller.php(1025): PaginatorComponent->paginate(Array, Array, Array)
+#4 /var/www/stickyspaces/app/Controller/WorkspacesController.php(29): Controller->paginate(Array)
+#5 [internal function]: WorkspacesController->index()
+#6 /var/www/stickyspaces/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(WorkspacesController), Array)
+#7 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(WorkspacesController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2011-12-09 04:01:48 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Workspace.id' in 'on clause'
+#0 /var/www/stickyspaces/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /var/www/stickyspaces/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('SELECT `UsersWo...', Array)
+#2 /var/www/stickyspaces/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('SELECT `UsersWo...', Array, Array)
+#3 /var/www/stickyspaces/lib/Cake/Model/Datasource/DboSource.php(1040): DboSource->fetchAll('SELECT `UsersWo...', false)
+#4 /var/www/stickyspaces/lib/Cake/Model/Model.php(2460): DboSource->read(Object(AppModel), Array)
+#5 /var/www/stickyspaces/lib/Cake/Controller/Component/PaginatorComponent.php(172): Model->find('all', Array)
+#6 /var/www/stickyspaces/lib/Cake/Controller/Controller.php(1025): PaginatorComponent->paginate(Array, Array, Array)
+#7 /var/www/stickyspaces/app/Controller/WorkspacesController.php(29): Controller->paginate(Array)
+#8 [internal function]: WorkspacesController->index()
+#9 /var/www/stickyspaces/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(WorkspacesController), Array)
+#10 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(WorkspacesController), Object(CakeRequest), Object(CakeResponse))
+#12 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2011-12-09 04:02:33 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 04:02:33 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 04:08:41 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 04:08:41 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 04:09:47 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 04:09:47 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 04:12:02 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 04:12:02 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 04:21:18 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 04:21:18 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 04:21:22 Error: [MissingControllerException] Controller class EditController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 04:23:55 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 04:23:55 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 04:23:58 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 04:23:58 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 04:32:18 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 04:32:18 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 04:32:32 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 04:32:32 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 04:32:52 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 04:32:52 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 04:34:27 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 04:34:27 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 04:35:24 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 04:35:24 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 04:36:31 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 04:36:31 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 04:38:00 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 04:38:00 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 04:38:47 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 04:38:47 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 04:39:34 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 04:39:34 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 04:40:25 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 04:40:25 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 04:41:43 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 04:41:43 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 04:43:43 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 04:43:43 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 04:48:46 Error: [MissingActionException] Action WorkspacesController::workspaces() could not be found.
+#0 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(WorkspacesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-09 04:49:25 Error: [MissingActionException] Action WorkspacesController::workspaces() could not be found.
+#0 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(WorkspacesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-09 04:49:31 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 04:49:31 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 04:49:48 Error: [MissingActionException] Action WorkspacesController::workspace() could not be found.
+#0 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(WorkspacesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-09 04:50:18 Error: [MissingActionException] Action WorkspacesController::workspace() could not be found.
+#0 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(WorkspacesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-09 04:50:24 Error: [MissingActionException] Action WorkspacesController::workspaces() could not be found.
+#0 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(WorkspacesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-09 04:50:46 Error: [MissingActionException] Action WorkspacesController::workspaces() could not be found.
+#0 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(WorkspacesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-09 04:51:05 Error: [MissingActionException] Action WorkspacesController::workspaces() could not be found.
+#0 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/stickyspaces/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(WorkspacesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-09 04:52:40 Error: [MissingControllerException] Controller class AboutController could not be found.
+#0 /var/www/stickyspaces/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
