@@ -26,9 +26,6 @@
     margin-top: 290px;
     width: 80px;
     height: 120px;
-    border-radius: 4px 4px 4px 4px;
-    -moz-border-radius: 4px 4px 4px 4px;
-    -webkit-border-radius: 4px 4px 4px 4px;
     position: relative;
 }
 .workspace-tools .tool.trash.dropping .body {
@@ -46,6 +43,9 @@
     -moz-box-shadow: 2px 5px 5px #888;
     -webkit-box-shadow: 2px 5px 5px #888;
     box-shadow: 2px 5px 5px #888;
+    border-radius: 0px 0px 4px 4px;
+    -moz-border-radius: 0px 0px 4px 4px;
+    -webkit-border-radius: 0px 0px 4px 4px;
 }
 .workspace-tools .tool.trash .lid {
     top: 0;
@@ -57,9 +57,17 @@
     -moz-box-shadow: 2px 5px 4px #888;
     -webkit-box-shadow: 2px 5px 4px #888;
     box-shadow: px 2px 5px #888;
+    border-radius: 4px 4px 0px 0px;
+    -moz-border-radius: 4px 4px 0px 0px;
+    -webkit-border-radius: 4px 4px 0px 0px;
 }
 
-.post {
+.workspace-tools .tool.post {
+    width: 140px;
+    height: 140px;
+}
+
+.post .content {
     width: 140px;
     height: 140px;
     background-color: #FFFB7D;
@@ -67,6 +75,7 @@
     -webkit-box-shadow: 2px 5px 5px #888;
     box-shadow: 2px 5px 5px #888;
 }
+
 
 .ui-draggable-dragging {
     -moz-box-shadow: 5px 8px 5px #888;
@@ -91,7 +100,81 @@
     box-shadow: inset 0px 0px 0px 4px #FFC547;
 }
 
-.workspace-content .item { 
+.workspace-content .content {
+    position: relative;
+}
+
+.workspace-content .post .content .char-count {
+    width: 140px;
+    height: 15px;
+    position: absolute;
+    bottom: 0;
+    text-align: right;
+    font-size: 12px;
+    color: #888;
+
+}
+.workspace-content .post .content .display {
+    width: 130px;
+    height: 120px;
+    position: absolute;
+    top: 0;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size: 12px;
+    margin: 5px;
+    color: #222;
+}
+
+.workspace-content .post .content .display .temp {
+    background-color: transparent;
+    width: 100%;
+    height: 120px;
+    font-family: inherit;
+    font-size: 12px;
+    border: none;
+}
+
+/***** Item Toolbar options *****/
+.workspace-content .item .options {
+    padding: 8px;
+    margin: auto;
+    height: 30px;
+    background-color: #333;
+    display: none;
+    -moz-box-shadow: 2px 2px 5px #888;
+    -webkit-box-shadow: 2px 2px 5px #888;
+    box-shadow: 2px 2px 5px #888;
+    border-radius: 2px 2px 2px 2px;
+    -moz-border-radius: 2px 2px 2px 2px;
+    -webkit-border-radius: 2px 2px 2px 2px;
+    clear: left;
+}
+
+.workspace-content .item .options li {
+    list-style: none; 
+    float: left;
+    margin-right: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+    width: 30px;
+    text-align: center;
+}
+.workspace-content .item .options li .option-icon {
+    margin-right: 2px;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    background-color: #eee;
+    color: #333;
+    margin: auto;
+
+}
+.workspace-content .item .options li .option-text {
+    font-size: 10px;
+    color: #fff;
+    margin: auto;
+    width: 30px;
 }
 
 .clear {
