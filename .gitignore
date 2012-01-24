@@ -1,1 +1,7 @@
-app/tmp/*
+/app/Config
+/app/tmp
+/lib/Cake/Console/Templates/skel/tmp/
+/plugins
+/vendors
+.DS_Store
+tags
