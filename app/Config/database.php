@@ -64,8 +64,8 @@ class DATABASE_CONFIG {
 		'persistent' => false,
 		'host' => 'localhost',
 		'login' => 'root',
-		'password' => 'historyofcg',
-		'database' => 'stickyspaces',
+		'password' => 'root',
+		'database' => 'tasktorch_prototype',
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);
