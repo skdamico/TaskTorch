@@ -8,11 +8,11 @@ $(document).ready(function() {
             "Add": function() {
                 var name = $('#workspace-dialog #name').val();
                 if(name != null && name != '') {
-                    $.post('/stickyspaces/workspaces/add', {"data[Workspace][name]": name }, function(data) {
+                    $.post('/workspaces/add', {"data[Workspace][name]": name }, function(data) {
                         // append to list of workspaces
                         var newWorkspace = $('.workspaces li').first().clone();
                         $(".label", newWorkspace).html(name);
-                        $(".workspace", newWorkspace).attr("href", "/stickyspaces/workspaces/edit/"+data);
+                        $(".workspace", newWorkspace).attr("href", "/workspaces/edit/"+data);
                         $('.add-workspace').parent().before(newWorkspace);
                         newWorkspace.show("drop", null, 400);
                     });

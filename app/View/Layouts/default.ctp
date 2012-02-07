@@ -2,7 +2,7 @@
 <html>
 <head>
     <?php echo $this->Html->charset(); ?>
-    <title>StickySpaces - <?php echo $title_for_layout; ?></title>
+    <title>TaskTorch - <?php echo $title_for_layout; ?></title>
     <?php 
         echo $this->Html->meta('icon');
         
@@ -14,7 +14,7 @@
 <body>
     <div id='container'>
         <div id='header'>
-            <h1><?php echo $this->Html->link("StickySpaces", "/"); ?></h1>
+            <h1><?php echo $this->Html->link("TaskTorch", "/"); ?></h1>
             <div id='header-link-bar'>
                 <span><?php echo $this->Html->link("My Account", "/users/view"); ?></span> |
                 <?php if(isset($user_logged_in) && !empty($user_logged_in)): ?>

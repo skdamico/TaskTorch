@@ -12,7 +12,7 @@
         </li>
         <?php foreach($workspaces as $workspace): ?>
         <li>
-            <a class='workspace' href='/stickyspaces/workspaces/edit/<?php echo $workspace['Workspace']['id']; ?>'>
+            <a class='workspace' href='/workspaces/edit/<?php echo $workspace['Workspace']['id']; ?>'>
                 <span class='label'><?php echo $workspace['Workspace']['name']; ?></span>
                 <span class='view'></span>
             </a>

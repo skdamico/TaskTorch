@@ -29,7 +29,7 @@ $(document).ready(function() {
                 }
                 else {
                    // not reverting, update position
-                   $.post("/stickyspaces/posts/update/"+$(this).attr('data-id'), {
+                   $.post("/posts/update/"+$(this).attr('data-id'), {
                        "data[Post][position_x]": $(this).position().left, 
                        "data[Post][position_y]": $(this).position().top});
 
@@ -94,7 +94,7 @@ $(document).ready(function() {
 
             $tmp_ta.blur(function() {
                 var new_content = $(this).val();
-                $.post("/stickyspaces/posts/update/"+$this_element.attr('data-id'), {
+                $.post("/posts/update/"+$this_element.attr('data-id'), {
                     "data[Post][content]": new_content
                 },
                 function(data) {
@@ -112,7 +112,7 @@ $(document).ready(function() {
         $('.options #delete', selector).click(function() {
             var $this_element = $(this).parent().parent();
 
-            $.post("/stickyspaces/posts/remove/"+$this_element.attr('data-id'), null, function(data) {
+            $.post("/posts/remove/"+$this_element.attr('data-id'), null, function(data) {
                 $this_element.effect("fold", {}, 500, function() { $this_element.remove(); });
             });
         });
@@ -148,7 +148,7 @@ $(document).ready(function() {
                     css({"position": "absolute", "left": posLeft, "top": posTop }));
 
                 // add to db!
-                $.post("/stickyspaces/posts/add", 
+                $.post("/posts/add", 
                         { "data[Post][position_x]": posLeft, 
                           "data[Post][position_y]": posTop, 
                           "data[Post][user_id]": userId,
@@ -179,7 +179,7 @@ $(document).ready(function() {
         drop: function(event, ui) {
             // delete item
             $(ui.draggable).effect("fold", {}, 400, function() {
-                $.post("/stickyspaces/posts/remove/"+$(this).attr('data-id'), null, function(data) {
+                $.post("/posts/remove/"+$(this).attr('data-id'), null, function(data) {
                     $(ui.draggable).remove();
                 });
             });
